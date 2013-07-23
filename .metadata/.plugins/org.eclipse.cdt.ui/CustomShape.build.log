@@ -1,0 +1,34 @@
+23:06:50 **** Rebuild of configuration Debug for project CustomShape ****
+Info: Internal Builder is used for build
+g++ "-IC:\\OpenHaptics\\Academic\\3.1\\include" "-IC:\\OpenHaptics\\Academic\\3.1\\utilities\\include" "-IC:\\OpenHaptics\\Academic\\3.1\\examples\\HL\\console\\CustomShape" -O0 -g3 -Wall -c -fmessage-length=0 -o CustomShape.o "..\\CustomShape.cpp" 
+In file included from C:\OpenHaptics\Academic\3.1\include/HD/hd.h:23:0,
+                 from ..\CustomShape.cpp:32:
+C:\OpenHaptics\Academic\3.1\include/HD/hdDefines.h:149:0: warning: ignoring #pragma deprecated  [-Wunknown-pragmas]
+C:\OpenHaptics\Academic\3.1\include/HD/hdDefines.h:157:0: warning: ignoring #pragma deprecated  [-Wunknown-pragmas]
+In file included from C:\OpenHaptics\Academic\3.1\include/HL/hl.h:28:0,
+                 from ..\CustomShape.cpp:34:
+C:\OpenHaptics\Academic\3.1\include/HL/hlCompilerConfig.h:26:0: warning: "NOMINMAX" redefined [enabled by default]
+c:\developpement\mingw\bin\../lib/gcc/mingw32/4.6.2/include/c++/mingw32/bits/os_defines.h:46:0: note: this is the location of the previous definition
+g++ "-IC:\\OpenHaptics\\Academic\\3.1\\include" "-IC:\\OpenHaptics\\Academic\\3.1\\utilities\\include" "-IC:\\OpenHaptics\\Academic\\3.1\\examples\\HL\\console\\CustomShape" -O0 -g3 -Wall -c -fmessage-length=0 -o HapticRings.o "..\\HapticRings.cpp" 
+In file included from C:\OpenHaptics\Academic\3.1\include/HD/hd.h:23:0,
+                 from C:\OpenHaptics\Academic\3.1\include/HL/hl.h:25,
+                 from C:\OpenHaptics\Academic\3.1\examples\HL\console\CustomShape/HapticRings.h:26,
+                 from ..\HapticRings.cpp:24:
+C:\OpenHaptics\Academic\3.1\include/HD/hdDefines.h:149:0: warning: ignoring #pragma deprecated  [-Wunknown-pragmas]
+C:\OpenHaptics\Academic\3.1\include/HD/hdDefines.h:157:0: warning: ignoring #pragma deprecated  [-Wunknown-pragmas]
+..\HapticRings.cpp: In constructor 'hduLineSegment<T>::hduLineSegment(const typename hduLine<T>::VecType&, const typename hduLine<T>::VecType&) [with T = double, typename hduLine<T>::VecType = hduVector3D<double>]':
+..\HapticRings.cpp:51:21: error: dependent-name 'hduLine<T>::VecType' is parsed as a non-type, but instantiation yields a type
+..\HapticRings.cpp:51:21: note: say 'typename hduLine<T>::VecType' if a type is meant
+..\HapticRings.cpp:51:21: error: dependent-name 'hduLine<T>::VecType' is parsed as a non-type, but instantiation yields a type
+..\HapticRings.cpp:51:21: note: say 'typename hduLine<T>::VecType' if a type is meant
+..\HapticRings.cpp:54:21: error: dependent-name 'hduLine<T>::VecType' is parsed as a non-type, but instantiation yields a type
+..\HapticRings.cpp:54:21: note: say 'typename hduLine<T>::VecType' if a type is meant
+..\HapticRings.cpp:54:21: error: dependent-name 'hduLine<T>::VecType' is parsed as a non-type, but instantiation yields a type
+..\HapticRings.cpp:54:21: note: say 'typename hduLine<T>::VecType' if a type is meant
+..\HapticRings.cpp:58:21: error: dependent-name 'hduLine<T>::VecType' is parsed as a non-type, but instantiation yields a type
+..\HapticRings.cpp:58:21: note: say 'typename hduLine<T>::VecType' if a type is meant
+..\HapticRings.cpp:58:21: error: dependent-name 'hduLine<T>::VecType' is parsed as a non-type, but instantiation yields a type
+..\HapticRings.cpp:58:21: note: say 'typename hduLine<T>::VecType' if a type is meant
+
+23:06:52 Build Finished (took 2s.22ms)
+

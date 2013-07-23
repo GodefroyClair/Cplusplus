@@ -1,0 +1,541 @@
+15:17:42 **** Incremental Build of configuration Debug for project MoveOmni ****
+make all 
+Building file: ../CannedForceEffect.c
+Invoking: Cygwin C Compiler
+gcc -I"C:\OpenHaptics\Academic\3.1\include" -I"C:\OpenHaptics\Academic\3.1\utilities\include" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CannedForceEffect.d" -MT"CannedForceEffect.d" -o "CannedForceEffect.o" "../CannedForceEffect.c"
+cygwin warning:
+  MS-DOS style path detected: C:\Users\Claudine\C++\MoveOmni\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Users/Claudine/C++/MoveOmni/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+In file included from C:/OpenHaptics/Academic/3.1/include/HD/hd.h:23,
+                 from ../CannedForceEffect.c:45:
+C:/OpenHaptics/Academic/3.1/include/HD/hdDefines.h:149: warning: ignoring #pragma deprecated 
+C:/OpenHaptics/Academic/3.1/include/HD/hdDefines.h:157: warning: ignoring #pragma deprecated 
+In file included from C:/OpenHaptics/Academic/3.1/include/HD/hd.h:24,
+                 from ../CannedForceEffect.c:45:
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:35: error: syntax error before "HHD"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:35: warning: type defaults to `int' in declaration of `hdInitDevice'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:35: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:39: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:39: warning: type defaults to `int' in declaration of `hdMakeCurrentDevice'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:39: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:42: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:42: warning: type defaults to `int' in declaration of `hdDisableDevice'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:42: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:45: error: syntax error before "HHD"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:45: warning: type defaults to `int' in declaration of `hdGetCurrentDevice'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:45: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:50: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:50: warning: type defaults to `int' in declaration of `hdBeginFrame'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:50: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:51: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:51: warning: type defaults to `int' in declaration of `hdEndFrame'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:51: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:55: error: syntax error before "HDErrorInfo"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:55: warning: type defaults to `int' in declaration of `hdGetError'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:55: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:59: error: syntax error before "HDstring"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:59: warning: type defaults to `int' in declaration of `hdGetErrorString'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:59: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:63: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:63: warning: type defaults to `int' in declaration of `hdEnable'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:63: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:64: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:64: warning: type defaults to `int' in declaration of `hdDisable'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:64: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:65: error: syntax error before "HDboolean"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:65: warning: type defaults to `int' in declaration of `hdIsEnabled'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:65: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:69: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:69: warning: type defaults to `int' in declaration of `hdGetBooleanv'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:69: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:70: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:70: warning: type defaults to `int' in declaration of `hdGetIntegerv'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:70: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:71: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:71: warning: type defaults to `int' in declaration of `hdGetFloatv'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:71: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:72: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:72: warning: type defaults to `int' in declaration of `hdGetDoublev'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:72: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:73: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:73: warning: type defaults to `int' in declaration of `hdGetLongv'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:73: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:74: error: syntax error before "HDstring"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:74: warning: type defaults to `int' in declaration of `hdGetString'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:74: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:78: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:78: warning: type defaults to `int' in declaration of `hdSetBooleanv'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:78: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:79: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:79: warning: type defaults to `int' in declaration of `hdSetIntegerv'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:79: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:80: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:80: warning: type defaults to `int' in declaration of `hdSetFloatv'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:80: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:81: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:81: warning: type defaults to `int' in declaration of `hdSetDoublev'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:81: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:82: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:82: warning: type defaults to `int' in declaration of `hdSetLongv'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:82: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:85: error: syntax error before "HDenum"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:85: warning: type defaults to `int' in declaration of `hdCheckCalibration'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:85: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:86: error: syntax error before "HDenum"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:86: warning: type defaults to `int' in declaration of `hdCheckCalibrationStyle'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:86: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:87: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:87: warning: type defaults to `int' in declaration of `hdUpdateCalibrationMessage'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:87: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:88: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:88: warning: type defaults to `int' in declaration of `hdUpdateCalibration'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:88: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:91: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:91: warning: type defaults to `int' in declaration of `hdScaleGimbalAngles'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:91: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:95: error: syntax error before "HDboolean"
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:98: warning: type defaults to `int' in declaration of `hdDeploymentLicense'
+C:/OpenHaptics/Academic/3.1/include/HD/hdDevice.h:98: warning: data definition has no type or storage class
+In file included from C:/OpenHaptics/Academic/3.1/include/HD/hd.h:25,
+                 from ../CannedForceEffect.c:45:
+C:/OpenHaptics/Academic/3.1/include/HD/hdScheduler.h:44: error: parse error before '*' token
+C:/OpenHaptics/Academic/3.1/include/HD/hdScheduler.h:55: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HD/hdScheduler.h:55: warning: type defaults to `int' in declaration of `hdStartScheduler'
+C:/OpenHaptics/Academic/3.1/include/HD/hdScheduler.h:55: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdScheduler.h:56: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HD/hdScheduler.h:56: warning: type defaults to `int' in declaration of `hdStopScheduler'
+C:/OpenHaptics/Academic/3.1/include/HD/hdScheduler.h:56: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdScheduler.h:57: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HD/hdScheduler.h:57: warning: type defaults to `int' in declaration of `hdSetSchedulerRate'
+C:/OpenHaptics/Academic/3.1/include/HD/hdScheduler.h:57: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdScheduler.h:65: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HD/hdScheduler.h:65: error: parse error before "pCallback"
+C:/OpenHaptics/Academic/3.1/include/HD/hdScheduler.h:67: warning: type defaults to `int' in declaration of `hdScheduleSynchronous'
+C:/OpenHaptics/Academic/3.1/include/HD/hdScheduler.h:67: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdScheduler.h:71: error: syntax error before "HDSchedulerHandle"
+C:/OpenHaptics/Academic/3.1/include/HD/hdScheduler.h:72: error: parse error before "pCallback"
+C:/OpenHaptics/Academic/3.1/include/HD/hdScheduler.h:74: warning: type defaults to `int' in declaration of `hdScheduleAsynchronous'
+C:/OpenHaptics/Academic/3.1/include/HD/hdScheduler.h:74: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdScheduler.h:77: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HD/hdScheduler.h:77: warning: type defaults to `int' in declaration of `hdUnschedule'
+C:/OpenHaptics/Academic/3.1/include/HD/hdScheduler.h:77: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdScheduler.h:82: error: syntax error before "HDboolean"
+C:/OpenHaptics/Academic/3.1/include/HD/hdScheduler.h:83: warning: type defaults to `int' in declaration of `hdWaitForCompletion'
+C:/OpenHaptics/Academic/3.1/include/HD/hdScheduler.h:83: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HD/hdScheduler.h:86: error: syntax error before "HDdouble"
+C:/OpenHaptics/Academic/3.1/include/HD/hdScheduler.h:86: warning: type defaults to `int' in declaration of `hdGetSchedulerTimeStamp'
+C:/OpenHaptics/Academic/3.1/include/HD/hdScheduler.h:86: warning: data definition has no type or storage class
+In file included from C:/OpenHaptics/Academic/3.1/include/HL/hl.h:30,
+                 from ../CannedForceEffect.c:46:
+C:/OpenHaptics/Academic/3.1/include/HL/hlTypes.h:73: error: parse error before '*' token
+C:/OpenHaptics/Academic/3.1/include/HL/hlTypes.h:76: error: parse error before '*' token
+C:/OpenHaptics/Academic/3.1/include/HL/hlTypes.h:80: error: parse error before '*' token
+C:/OpenHaptics/Academic/3.1/include/HL/hlTypes.h:85: warning: type defaults to `int' in declaration of `HLboolean'
+C:/OpenHaptics/Academic/3.1/include/HL/hlTypes.h:85: error: `HLboolean' declared as function returning a function
+C:/OpenHaptics/Academic/3.1/include/HL/hlTypes.h:87: error: parse error before '*' token
+C:/OpenHaptics/Academic/3.1/include/HL/hlTypes.h:94: error: parse error before '*' token
+C:/OpenHaptics/Academic/3.1/include/HL/hlTypes.h:98: error: parse error before '*' token
+C:/OpenHaptics/Academic/3.1/include/HL/hlTypes.h:100: error: parse error before '*' token
+In file included from C:/OpenHaptics/Academic/3.1/include/HL/hl.h:31,
+                 from ../CannedForceEffect.c:46:
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:36: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:37: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:38: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:39: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:40: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:41: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:42: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:43: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:44: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:47: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:48: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:49: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:50: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:51: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:52: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:54: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:55: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:56: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:59: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:60: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:61: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:62: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:65: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:66: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:67: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:70: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:71: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:72: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:73: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:76: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:77: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:80: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:83: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:84: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:87: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:88: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:89: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:92: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:95: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:96: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:97: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:98: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:99: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:103: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:104: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:105: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:106: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:107: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:108: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:109: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:110: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:111: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:112: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:113: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:114: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:115: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:116: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:120: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:121: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:124: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:125: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:126: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:127: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:128: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:129: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:130: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:131: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:132: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:133: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:134: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:135: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:136: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:137: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:138: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:141: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:142: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:145: error: syntax error before "HLint"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:148: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:149: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:153: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:154: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:155: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:158: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:159: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:162: error: syntax error before "HLint"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:163: error: syntax error before "HLint"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:164: error: syntax error before "HLint"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:165: error: syntax error before "HLint"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:166: error: syntax error before "HLint"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:167: error: syntax error before "HLint"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:170: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:171: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:172: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:173: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:174: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:176: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:177: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:178: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:179: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:180: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:181: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:182: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:183: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:185: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:186: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:187: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:190: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:191: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:196: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:198: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:199: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:200: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:201: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:202: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:203: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:204: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:205: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:206: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:208: error: syntax error before "HLenum"
+C:/OpenHaptics/Academic/3.1/include/HL/hlDefines.h:209: error: syntax error before "HLenum"
+In file included from ../CannedForceEffect.c:46:
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:38: error: syntax error before "HHLRC"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:38: warning: type defaults to `int' in declaration of `hlCreateContext'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:38: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:39: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:39: warning: type defaults to `int' in declaration of `hlDeleteContext'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:39: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:41: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:41: warning: type defaults to `int' in declaration of `hlMakeCurrent'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:41: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:42: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:42: warning: type defaults to `int' in declaration of `hlContextDevice'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:42: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:44: error: syntax error before "HHLRC"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:44: warning: type defaults to `int' in declaration of `hlGetCurrentContext'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:44: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:45: error: syntax error before "HHD"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:45: warning: type defaults to `int' in declaration of `hlGetCurrentDevice'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:45: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:47: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:47: warning: type defaults to `int' in declaration of `hlBeginFrame'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:47: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:48: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:48: warning: type defaults to `int' in declaration of `hlEndFrame'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:48: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:51: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:51: warning: type defaults to `int' in declaration of `hlEnable'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:51: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:52: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:52: warning: type defaults to `int' in declaration of `hlDisable'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:52: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:53: error: syntax error before "HLboolean"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:53: warning: type defaults to `int' in declaration of `hlIsEnabled'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:53: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:54: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:54: warning: type defaults to `int' in declaration of `hlGetBooleanv'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:54: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:55: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:55: warning: type defaults to `int' in declaration of `hlGetDoublev'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:55: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:56: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:56: warning: type defaults to `int' in declaration of `hlGetIntegerv'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:56: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:57: error: syntax error before "HLerror"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:57: warning: type defaults to `int' in declaration of `hlGetError'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:57: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:58: error: syntax error before "const"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:58: error: parse error before "hlGetString"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:58: warning: type defaults to `int' in declaration of `hlGetString'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:58: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:61: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:61: warning: type defaults to `int' in declaration of `hlGetShapeBooleanv'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:61: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:62: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:62: warning: type defaults to `int' in declaration of `hlGetShapeDoublev'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:62: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:64: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:64: warning: type defaults to `int' in declaration of `hlHinti'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:64: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:65: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:65: warning: type defaults to `int' in declaration of `hlHintb'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:65: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:68: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:68: warning: type defaults to `int' in declaration of `hlCacheGetBooleanv'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:68: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:69: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:69: warning: type defaults to `int' in declaration of `hlCacheGetDoublev'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:69: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:72: error: syntax error before "HLuint"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:72: warning: type defaults to `int' in declaration of `hlGenShapes'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:72: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:73: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:73: warning: type defaults to `int' in declaration of `hlDeleteShapes'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:73: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:74: error: syntax error before "HLboolean"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:74: warning: type defaults to `int' in declaration of `hlIsShape'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:74: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:75: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:75: warning: type defaults to `int' in declaration of `hlBeginShape'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:75: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:76: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:76: warning: type defaults to `int' in declaration of `hlEndShape'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:76: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:77: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:77: warning: type defaults to `int' in declaration of `hlCallShape'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:77: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:80: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:80: warning: type defaults to `int' in declaration of `hlMaterialf'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:80: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:81: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:81: warning: type defaults to `int' in declaration of `hlGetMaterialfv'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:81: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:83: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:83: warning: type defaults to `int' in declaration of `hlTouchableFace'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:83: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:85: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:85: warning: type defaults to `int' in declaration of `hlTouchModel'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:85: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:86: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:86: warning: type defaults to `int' in declaration of `hlTouchModelf'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:86: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:89: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:89: warning: type defaults to `int' in declaration of `hlPushAttrib'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:89: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:90: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:90: warning: type defaults to `int' in declaration of `hlPopAttrib'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:90: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:93: error: syntax error before "HLuint"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:93: warning: type defaults to `int' in declaration of `hlGenEffects'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:93: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:94: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:94: warning: type defaults to `int' in declaration of `hlDeleteEffects'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:94: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:95: error: syntax error before "HLboolean"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:95: warning: type defaults to `int' in declaration of `hlIsEffect'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:95: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:97: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:97: warning: type defaults to `int' in declaration of `hlTriggerEffect'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:97: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:98: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:98: warning: type defaults to `int' in declaration of `hlStartEffect'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:98: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:99: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:99: warning: type defaults to `int' in declaration of `hlStopEffect'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:99: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:100: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:100: warning: type defaults to `int' in declaration of `hlUpdateEffect'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:100: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:102: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:102: warning: type defaults to `int' in declaration of `hlEffectd'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:102: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:103: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:103: warning: type defaults to `int' in declaration of `hlEffecti'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:103: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:104: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:104: warning: type defaults to `int' in declaration of `hlEffectdv'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:104: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:105: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:105: warning: type defaults to `int' in declaration of `hlEffectiv'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:105: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:107: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:107: warning: type defaults to `int' in declaration of `hlGetEffectdv'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:107: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:108: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:108: warning: type defaults to `int' in declaration of `hlGetEffectiv'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:108: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:109: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:109: warning: type defaults to `int' in declaration of `hlGetEffectbv'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:109: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:112: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:112: warning: type defaults to `int' in declaration of `hlProxydv'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:112: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:113: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:113: warning: type defaults to `int' in declaration of `hlProxyf'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:113: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:116: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:116: warning: type defaults to `int' in declaration of `hlMatrixMode'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:116: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:117: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:117: warning: type defaults to `int' in declaration of `hlPushMatrix'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:117: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:118: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:118: warning: type defaults to `int' in declaration of `hlPopMatrix'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:118: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:119: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:119: warning: type defaults to `int' in declaration of `hlTranslated'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:119: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:120: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:120: warning: type defaults to `int' in declaration of `hlTranslatef'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:120: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:121: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:121: warning: type defaults to `int' in declaration of `hlRotated'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:121: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:122: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:122: warning: type defaults to `int' in declaration of `hlRotatef'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:122: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:123: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:123: warning: type defaults to `int' in declaration of `hlScaled'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:123: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:124: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:124: warning: type defaults to `int' in declaration of `hlScalef'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:124: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:125: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:125: warning: type defaults to `int' in declaration of `hlLoadIdentity'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:125: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:126: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:126: warning: type defaults to `int' in declaration of `hlLoadMatrixd'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:126: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:127: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:127: warning: type defaults to `int' in declaration of `hlLoadMatrixf'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:127: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:128: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:128: warning: type defaults to `int' in declaration of `hlMultMatrixd'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:128: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:129: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:129: warning: type defaults to `int' in declaration of `hlMultMatrixf'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:129: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:130: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:132: warning: type defaults to `int' in declaration of `hlOrtho'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:132: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:133: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:134: warning: type defaults to `int' in declaration of `hlWorkspace'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:134: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:137: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:137: warning: type defaults to `int' in declaration of `hlLocalFeature1fv'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:137: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:138: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:138: warning: type defaults to `int' in declaration of `hlLocalFeature1dv'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:138: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:139: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:139: warning: type defaults to `int' in declaration of `hlLocalFeature2fv'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:139: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:140: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:140: warning: type defaults to `int' in declaration of `hlLocalFeature2dv'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:140: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:143: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:143: error: parse error before "HLcallbackProc"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:143: warning: type defaults to `int' in declaration of `hlCallback'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:143: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:146: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:147: error: parse error before "HLeventProc"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:148: warning: type defaults to `int' in declaration of `hlAddEventCallback'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:148: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:149: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:150: error: parse error before "HLeventProc"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:150: warning: type defaults to `int' in declaration of `hlRemoveEventCallback'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:150: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:151: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:151: warning: type defaults to `int' in declaration of `hlCheckEvents'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:151: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:152: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:152: warning: type defaults to `int' in declaration of `hlEventd'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:152: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:155: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:155: warning: type defaults to `int' in declaration of `hlUpdateCalibration'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:155: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:158: error: syntax error before "HLboolean"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:160: warning: type defaults to `int' in declaration of `hlDeploymentLicense'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:160: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:163: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:163: warning: type defaults to `int' in declaration of `hlDumpScene'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:163: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:165: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:165: warning: type defaults to `int' in declaration of `hlBegin'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:165: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:166: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:166: warning: type defaults to `int' in declaration of `hlEnd'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:166: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:167: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:167: warning: type defaults to `int' in declaration of `hlVertex3f'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:167: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:168: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:168: warning: type defaults to `int' in declaration of `hlVertex3fv'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:168: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:169: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:169: warning: type defaults to `int' in declaration of `hlVertex3d'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:169: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:170: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:170: warning: type defaults to `int' in declaration of `hlVertex3dv'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:170: warning: data definition has no type or storage class
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:172: error: syntax error before "void"
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:172: warning: type defaults to `int' in declaration of `hlFrontFace'
+C:/OpenHaptics/Academic/3.1/include/HL/hl.h:172: warning: data definition has no type or storage class
+../CannedForceEffect.c:50: error: parse error before "buttonCB"
+../CannedForceEffect.c:50: warning: type defaults to `int' in declaration of `buttonCB'
+../CannedForceEffect.c:50: warning: data definition has no type or storage class
+subdir.mk:21: recipe for target `CannedForceEffect.o' failed
+../CannedForceEffect.c: In function `main':
+../CannedForceEffect.c:64: error: incompatible types in assignment
+../CannedForceEffect.c:73: warning: assignment makes pointer from integer without a cast
+../CannedForceEffect.c:114: error: incompatible types in assignment
+../CannedForceEffect.c: At top level:
+../CannedForceEffect.c:140: error: parse error before "buttonCB"
+../CannedForceEffect.c:142: warning: return type defaults to `int'
+make: *** [CannedForceEffect.o] Error 1
+
+15:17:45 Build Finished (took 3s.394ms)
+

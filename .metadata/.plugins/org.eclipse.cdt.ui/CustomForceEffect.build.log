@@ -1,0 +1,6 @@
+19:06:45 **** Incremental Build of configuration Debug for project CustomForceEffect ****
+Info: Internal Builder is used for build
+g++ "-LC:\\OpenHaptics\\Academic\\3.1\\lib\\Win32\\DebugAcademicEdition" "-LC:\\OpenHaptics\\Academic\\3.1\\utilities\\lib" -o CustomForceEffect.exe CustomForceEffect.o -lHLUD -lHDUD -lhddll -lhldll 
+
+19:06:45 Build Finished (took 220ms)
+

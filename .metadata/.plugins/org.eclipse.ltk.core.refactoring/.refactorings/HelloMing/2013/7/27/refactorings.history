@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;HelloMing/src/Conio.c&apos; to &apos;conio.c&apos;" description="Rename resource &apos;Conio.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Conio.c" name="conio.c" stamp="1372678158621" updateReferences="true"/>&#x0A;&#x0A;</session>

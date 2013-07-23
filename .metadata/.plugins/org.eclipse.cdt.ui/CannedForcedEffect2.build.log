@@ -1,0 +1,13 @@
+16:15:38 **** Rebuild of configuration Default for project CannedForcedEffect2 ****
+Info: Internal Builder is used for build
+gcc "-IC:\\OpenHaptics\\Academic\\3.1\\include" "-IC:\\OpenHaptics\\Academic\\3.1\\utilities\\include" -O2 -g -Wall -c -fmessage-length=0 -o CannedForceEffect.o "..\\CannedForceEffect.c" 
+In file included from C:\OpenHaptics\Academic\3.1\include/HD/hd.h:23:0,
+                 from ..\CannedForceEffect.c:38:
+C:\OpenHaptics\Academic\3.1\include/HD/hdDefines.h:149:0: warning: ignoring #pragma deprecated  [-Wunknown-pragmas]
+C:\OpenHaptics\Academic\3.1\include/HD/hdDefines.h:157:0: warning: ignoring #pragma deprecated  [-Wunknown-pragmas]
+gcc "-IC:\\OpenHaptics\\Academic\\3.1\\include" "-IC:\\OpenHaptics\\Academic\\3.1\\utilities\\include" -O2 -g -Wall -c -fmessage-length=0 -o conio.o "..\\conio.c" 
+..\conio.c:25:22: fatal error: sys/poll.h: No such file or directory
+compilation terminated.
+
+16:15:39 Build Finished (took 750ms)
+

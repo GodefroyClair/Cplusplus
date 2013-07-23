@@ -1,0 +1,7 @@
+23:06:35 **** Incremental Build of configuration Debug for project HelloMing ****
+Info: Internal Builder is used for build
+g++ -o HelloMing.exe "src\\HelloMing.o" "src\\conio.o" 
+g++.exe: error: src\conio.o: No such file or directory
+
+23:06:36 Build Finished (took 101ms)
+
